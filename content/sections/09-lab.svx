@@ -1,0 +1,78 @@
+## Lab
+
+> This lab will be focussed on performing analysis on an Apple device. The device image used in the lab is of an Apple iPhone 8.
+
+The phone was seized by the **Perth Police** as part of an investigation, you've been engaged to gather any intelligence on the phone and report back the findings.
+
+---
+
+### Resources and tools
+
+> Files are available from the [Resources](#resources) section
+
+* Download the device image
+* Download the _iLEAPP_ tool, or use the [pre-generated report](https://featherbear.cc/UNSW-COMP6845-ios-ileapp)
+* Download the _ArtEx2_ tool
+* Read the SANS iOS Forensics Poster
+
+### ArtEx2
+
+Artifact Examiner 2 is a freeware forensics tool for analysing iOS systems.
+
+> Note: on first-run, you will need to first download the parsers (analysis modules)
+
+<img src="images/Snipaste_2023-07-24_03-15-52.png" width="50%" />
+
+#### Ingesting an Image
+
+To load the device image, press [Begin], then select the [Archive] mode. Then [Browse] to the device image and press [Open].
+
+![](images/Snipaste_2023-07-24_03-19-32.png)
+
+#### Select (UTC+08:00) Perth (since the phone was seized in Perth)
+
+![](images/Snipaste_2023-07-24_03-23-11.png)
+
+#### Investigation
+
+The ArtEx tool makes use of parsers to extract artifacts, and arranges them into a timeline view, facilitating the forensic investigation. You will first need to run the parsers by going to the [Timeline] tab, selecting the desired modules (or press [Select All]), and then pressing [Run]
+
+![](images/Snipaste_2023-07-24_03-41-22.png)
+
+---
+
+### iLEAPP
+
+
+iLEAPP is another free forensics tool to analyse the contents of an iOS device.
+
+After downloading and opening iLEAPP, select the device image and then press [Process].  
+A report will be generated for you (or use the [pre-generated report](https://featherbear.cc/UNSW-COMP6845-ios-ileapp))
+
+![](images/Snipaste_2023-07-24_03-59-51.png)
+
+## Questions
+
+### Question 1
+
+Do the number of SMS messages match in ArtEx / iLEAPP / the raw SMS.db file, and what does this indicate to you as forensic analyst?
+
+### Question 2
+
+Research and explain in 200-500 words why `checkm8` (of which `checkra1n` is built on) **is** or **is not** a sound forensic method to collect an image of an iPhone. Reference forensic tools you come across and how they use `checkm8`. 
+
+### Question 3
+
+What locations did the device user navigate to? 
+
+### Question 4
+
+How many contacts are in the phone?
+
+### Question 5
+
+Who (full name) were the SMS messages from?
+
+### Question 6
+
+What is the filename of the data store containing Health Data?

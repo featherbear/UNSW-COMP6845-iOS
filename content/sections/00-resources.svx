@@ -1,3 +1,41 @@
 ### SANS iOS Forensics Poster (optional)
 
 Download: [[GitHub Mirror]](https://github.com/featherbear/UNSW-COMP6845-ios/raw/master/SANS_DFPS_iOS-APPS-v1.2_09-22.pdf) [[CyberBlue.pro Mirror]](https://cyberblue.pro/Sans_Posters/SANS_DFPS_iOS-APPS-v1.2_09-22.pdf)
+
+---
+
+### Device Image
+
+Download: [98245c35524f9a81d660b1e0a04dbaa71c5b8993_Full-001.tar](https://drive.google.com/file/d/1HRiWonYXnno86irjkJccGwWQIYHpLTCc/view?usp=sharing)  
+Type: File System Image  
+md5sum: `6b6065f02dcdec35e54b84740539deca`  
+sha1sum: `afd25f1ebba12eb48a6cc10ac1abce7b28065a48`  
+
+---
+
+### ArtEx2 - Artifact Examiner
+
+> iOS Forensics Verification, Validation, Reporting and Research
+
+Download: [doubleblak.com](https://www.doubleblak.com/software.php?id=8) (registration required)
+
+Pre-generated report (may not contain everything): [UNSW-COMP6845-ios-artex](https://featherbear.cc/UNSW-COMP6845-ios-artex/)
+
+---
+
+### iLEAPP (optional)
+
+> iLEAPP is a forensics tool to analyse the contents of an iOS device
+
+Download: [abrignoni/iLEAPP](https://github.com/abrignoni/iLEAPP)  
+
+Pre-generated report: [UNSW-COMP6845-ios-ileapp](https://featherbear.cc/UNSW-COMP6845-ios-ileapp)
+
+---
+
+### Other tools / resources
+
+* [3uTools](http://www.3u.com/) - iOS device management
+* [Doubleblak](https://www.doubleblak.com/) - Forensic tooling
+* [Cellebrite](www.cellebrite.com) - Forensic tooling
+* [Magnet Forensics](https://www.magnetforensics.com/) - Forensic tooling

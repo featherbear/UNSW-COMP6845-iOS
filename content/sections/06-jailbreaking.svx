@@ -4,6 +4,8 @@
 
 ### History of (public) jailbreaks
 
+> (not conclusive, also probably out of date now)
+
 * 2007 - JailbreakMe - The first-ever public jailbreak for iOS, released by comex, which allowed users to jailbreak iOS 1.1.1 on the original iPhone.
 * 2008 - RedSn0w - Developed by the iPhone Dev Team, RedSn0w was a popular jailbreaking tool for various iOS versions, including iOS 2, iOS 3, and iOS 4.
 * 2009 - Blackra1n - Released by geohot, Blackra1n was a tool that allowed users to jailbreak iOS 3.1.2 on multiple iPhone models.
