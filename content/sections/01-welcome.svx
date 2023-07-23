@@ -1,3 +1,38 @@
-# Welcome!
+### iOS..?
 
-This is a page
+iOS (formerly known as iPhone OS) is a mobile operating system developed by [Apple Inc.](https://www.apple.com/) for its mobile devices, including the iPhone, iPad, and iPod Touch. 
+
+It offers a wide range of built-in features and supports third-party apps that can be downloaded from the App Store. 
+
+iOS additionally includes messaging, phone calling, web browsing, email, camera and photo management, media playback, and social networking integrations.
+
+#### Always developing
+
+* 2007 - Phone OS 1 - The first version of the iPhone operating system, which launched alongside the original iPhone.  
+* 2008 - iPhone OS 2 - Introduced the App Store, which allowed users to download third-party applications onto their iPhones.  
+* 2009 - iPhone OS 3 - Added new features like Cut, Copy, and Paste, MMS messaging, and Spotlight search.  
+* 2010 - iOS 4 - Renamed to iOS, introduced multitasking, folders, and FaceTime.  
+* 2011 - iOS 5 - Added Notification Centre, iMessage, and iCloud.  
+* 2012 - iOS 6 - Introduced Apple Maps, Passbook, and Facebook integration.  
+* 2013 - iOS 7 - Redesigned interface, introduced Control Center, AirDrop, and iTunes Radio.  
+* 2014 - iOS 8 - Introduced Apple Pay, Health Kit, and HomeKit.  
+* 2015 - iOS 9 - Improved Siri, introduced Apple Music and News.  
+* 2016 - iOS 10 - Redesigned Lock Screen, introduced Home app and new messaging features.  
+* 2017 - iOS 11 - Improved Siri, redesigned App Store, introduced ARKit.  
+* 2018 - iOS 12 - Improved performance, introduced Screen Time and Memoji.  
+* 2019 - iOS 13 - Introduced Dark Mode, improved performance and security features.  
+* 2020 - iOS 14 - Introduced App Clips, improved widgets and Siri.  
+* 2021 - iOS 15 - Introduced Focus, Live Text, and new FaceTime features.  
+
+### Implications for Digital Forensics
+
+Digital forensic implications for iOS significant, given the widespread use of iOS devices and the amount of sensitive data they store. 
+
+Here are some implications:
+
+* Security: iOS is known for its strong security features, such as data encryption and secure booting. These features make it challenging for forensic investigators to access or extract data from an iOS device without proper authentication.
+* Data storage: iOS devices store a large amount of data, including text messages, call logs, emails, browsing history, photos, and other media files. 
+* App data: iOS devices also store a vast amount of data related to installed apps, including app usage, settings, and preferences. 
+* Cloud storage: iOS devices are often connected to cloud storage services such as iCloud, which can contain additional data that may be relevant to a forensic investigation. Forensic investigators must be able to access and analyze this data to gain a complete picture of a user's activities.
+
+

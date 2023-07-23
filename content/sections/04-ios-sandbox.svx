@@ -1,0 +1,34 @@
+
+### The iOS Sandbox
+
+![](https://www.prplbx.com/wp-content/uploads/picture6iosapplicationsandbox.png)
+
+The iOS Application Sandbox is a security feature that isolates each application's data and resources from other applications and the underlying operating system. It enhances the overall security of the iOS platform by reducing the risk of malicious applications compromising the operating system or other applications. The sandbox is enforced by the operating system and cannot be disabled by the user or the application.
+
+* Each iOS application runs in its own sandboxed environment, with its own set of files, directories, and system resources. The sandbox ensures that an application cannot modify or access system files, critical system settings, or other applications' data.
+  * An application can only access its own resources and data
+  * An application can access other resources and data only if it is explicitly allowed by the system, and specified in the application's _entitlements_
+  * Network access is also restricted, preventing it from initiating connections to unauthorised hosts or ports
+
+### Terminology
+
+* **Bundle Container** - Hosts the (signed) application code.
+* **Data Container** - A directory holds both application data and user data.
+
+The application can also request access to additional container directories during runtime, e.g. the "iCloud Container"
+
+---
+
+
+### iOS Apps
+
+Signing your app allows iOS to identify who signed it and confirm that it hasn't been modified since you signed it.
+
+If we look at the signing process:
+
+* The developer signs the apps and submits it to Apple's App Store
+* Apple verifies it (performs some rudimentary checks, **but not** a vulnerability assessment of the app)
+* If the app meets Apple's requirements, Apple signs the application
+* The app is made available for download on the Apple App Store
+
+---

@@ -1,0 +1,22 @@
+
+### The iOS File system
+
+* The iOS file system is a hierarchical structure that organizes and stores files and directories on an iOS device.
+* Users of iOS devices do not have direct access to the file system
+
+Here are some key characteristics of the iOS file system
+
+* The iOS file system is based on the Hierarchical File System (HFS), which is a proprietary file system developed by Apple Inc.
+* The root directory of the file system is called "/". All other directories and files are organized under this root directory.
+* The file system is divided into several directories. Each directory has its own specific purpose and contains different types of files.
+    * `/Applications` - contains all installed applications and their associated data and resources.
+    * `/Library` - contains system-level libraries, frameworks, and configuration files.
+    * `/System` - contains system-level executables, frameworks, and other essential system files.
+    * `/Private` - contains files and directories that are inaccessible to most applications and users.
+    * `/var` - contains variable data files, such as log files, cache files, and temporary files.
+
+The file system supports data protection, which encrypts all sensitive data stored on the device to protect it from unauthorized access. The file system also supports iCloud, Apple's cloud storage service, which allows users to access and synchronize their files and data across multiple devices.
+
+For security reasons, an iOS app's file system interactions are limited to the directories contained within its "sandbox"
+
+---

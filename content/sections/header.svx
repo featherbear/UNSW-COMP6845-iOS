@@ -1,7 +1,8 @@
-# COMP6845 | TITLE
+# COMP6845 | iOS Forensics
 
 ```
-Version: XX.YY (YYYYMMDD)
+Version: 1.00 (20230723)
 Maintainer: Andrew Wong (andrew.j.wong@unsw.edu.au)
 ```
+
 

@@ -1,0 +1,46 @@
+
+### Jailbreaking
+
+
+### History of (public) jailbreaks
+
+* 2007 - JailbreakMe - The first-ever public jailbreak for iOS, released by comex, which allowed users to jailbreak iOS 1.1.1 on the original iPhone.
+* 2008 - RedSn0w - Developed by the iPhone Dev Team, RedSn0w was a popular jailbreaking tool for various iOS versions, including iOS 2, iOS 3, and iOS 4.
+* 2009 - Blackra1n - Released by geohot, Blackra1n was a tool that allowed users to jailbreak iOS 3.1.2 on multiple iPhone models.
+* 2010 - Spirit - Another jailbreaking tool by comex that enabled users to jailbreak iOS 3.1.3 on various iPhone, iPod touch, and iPad models.
+* 2011 - JailbreakMe 3.0 - Comex's JailbreakMe 3.0 was a web-based jailbreaking tool that supported iOS 4.3.3 on compatible iPhone, iPod touch, and iPad devices.
+* 2012 - Absinthe - Developed by the Chronic Dev Team and iPhone Dev Team, Absinthe was a jailbreaking tool for iOS 5.1.1 on various iPhone, iPod touch, and iPad models.
+* 2013 - evasi0n - Evasi0n was a popular jailbreaking tool for iOS 6, released by the Evad3rs team, supporting iPhone, iPod touch, iPad, and iPad mini devices.
+* 2014 - Pangu - A jailbreaking tool by the Pangu team that supported iOS 7.1 and later versions, including iOS 8 and iOS 9.
+* 2014 - TaiG - Developed by the TaiG team, TaiG was a jailbreaking tool for iOS 8 and iOS 9, known for its speed and stability.
+* 2015 - PanGu9 - Pangu9 was a jailbreaking tool by the Pangu team that supported iOS 9, including iOS 9.0, iOS 9.0.1, and iOS 9.0.2.
+* 2016 - Yalu - Released by Luca Todesco, Yalu was a semi-untethered jailbreak for iOS 10, supporting select iPhone and iPad models.
+* 2018 - Electra - Developed by CoolStar, Electra was a semi-untethered jailbreaking tool for iOS 11, including iOS 11.0 to iOS 11.4.1.
+* 2018 - unc0ver - Unc0ver was a popular jailbreaking tool for iOS 11 and iOS 12, developed by Pwn20wnd, supporting a wide range of iPhone, iPod touch, and iPad models.
+* 2019 - Checkra1n - Checkra1n was a hardware-based jailbreaking tool that supported iOS 13 and later versions on select iPhone and iPad models, utilizing a bootrom exploit.
+* 2020 - Odyssey - Released by CoolStar, Odyssey was a semi-untethered jailbreaking tool for iOS 13 and iOS 14, known for its stability and support for A8-A13 devices.
+
+### Types of Jailbreaks
+
+> FYI - tethered = connected to a computer
+
+* **_Tethered Jailbreak_**
+  * The device needs to be connected **to a computer** every time it is rebooted, in order for the jailbreak to remain active.
+* **_Untethered Jailbreak_**
+  * A permanent jailbreak that allows the device to remain jailbroken even after rebooting without needing to connect **to a computer**. 
+* **_Semi-Tethered Jailbreak_**
+  * A combination of a tethered and untethered jailbreak. After rebooting, the device can still function normally, but some jailbreak functionalities may not work until the device is connected **to a computer** and re-jailbroken.
+* **_Semi-Untethered Jailbreak_**
+  * Allows the device to function normally even after a reboot, but some of the jailbreak functionalities may not work until the device is re-jailbroken (often through a side-load method, rather than through a computer).
+* **_Userland Jailbreak_**
+  * A userland jailbreak exploits a vulnerability in a user application, such as Safari, to gain access to the device's operating system and install unauthorized software.
+* **_Bootrom Jailbreak_**
+  * A bootrom jailbreak exploits a vulnerability in the device's hardware at the boot level, giving the user full control over the device and allowing the installation of custom firmware.
+* **_Hybrid Jailbreak_**
+  * A hybrid jailbreak combines both userland and bootrom exploits to achieve a jailbreak.
+
+### Forensic Thoughts...
+
+* What does a jailbreak exploit actually do? 
+* Is jailbreaking a device a forensically sound process?
+* Is a jailbroken device image forensically sound?

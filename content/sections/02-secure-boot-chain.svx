@@ -1,0 +1,48 @@
+
+## The iOS Secure Boot Chain
+
+The iOS **Secure Boot Chain** is a series of steps that ensures the integrity of the iOS operating system during the boot-up process. This makes it difficult for attackers to install malicious software or modify the device's operating system, enhancing the overall security of iOS devices.
+
+![](https://resources.infosecinstitute.com/wp-content/uploads/031815_2232_Understandi1.png)
+
+> The Secure Boot Chain consists of several components
+
+### Boot ROM
+
+The first component in the Secure Boot Chain is the Boot ROM, which is built into the device's hardware (This code is embedded in the processor and cannot be changed or updated). The Boot ROM is responsible for verifying the integrity of the next stage of the boot process before it is loaded into memory.
+
+It is referred to as a hardware root of trust (and is implicitly accepted). This also includes the Apple root certificate with an authentic public key, which is used to ensure that the low-level boot loader is properly signed.
+
+### Low-Level Bootloader (LLB)
+
+The LLB is the next stage in the boot process and is responsible for validating and loading the iBoot firmware. This is the lowest level of code that can be updated.  
+The Boot ROM verifies the integrity of the LLB before allowing it to execute.
+
+### iBoot
+
+Once the LLB has loaded the iOS kernel, the iBoot bootloader is responsible for loading the iOS operating system.  
+This secure boot chain also prevents any malware that can affect the iOS Kernel.
+
+The iBoot firmware verifies the signature of the iOS kernel before starting the kernel.  
+The LLB verifies the integrity of iBoot before allowing it to execute.
+
+### iOS Kernel
+
+The iOS kernel is responsible for managing the device's hardware and software resources. It is loaded by iBoot and is verified by the Secure Enclave Processor (SEP).
+
+### Secure Enclave Processor (SEP)
+
+> Think of it as a blackbox crypto provider.
+
+The SEP is a separate processor inside of the device that is responsible for securely storing sensitive information and verifying the integrity of the iOS kernel. It has its own hardware resources and interacts with the main processor.
+
+On system startup, the iBoot firmware assigns a dedicated region of memory to the Secure Enclave. Before using the memory, the Secure Enclave Boot ROM initialises the Memory Protection Engine to provide cryptographic protection of the Secure Enclave protected memory. The Application Processor then sends the operating system image (_sepOS_) to the Secure Enclave Boot ROM.
+
+After copying the sepOS image into the Secure Enclave protected memory, the Secure Enclave Boot ROM checks the cryptographic hash and signature of the image to verify that the sepOS is authorised to run on the device.
+
+* If the sepOS image is properly signed to run on the device, the Secure Enclave Boot ROM transfers control to sepOS.
+* If the signature isn't valid, the Secure Enclave Boot ROM is designed to prevent any further use of the Secure Enclave until the next chip reset.
+
+> Read more: [support.apple.com](https://support.apple.com/en-au/guide/security/sec59b0b31ff/web#:~:text=The%20Secure%20Enclave%20is%20a%20dedicated%20secure%20subsystem%20integrated%20into,Application%20Processor%20kernel%20becomes%20compromised)
+
+---

@@ -1,0 +1,9 @@
+
+# Artifacts
+
+* Third-party iOS apps can be installed from the Apple Store
+* Once an app is installed on a iOS device
+  * The application bundle is installed in subfolder in the `/private/var/containers/Bundle` folder
+  * The application data is stored in a subfolder in the (sandboxed) `/private/var/mobile/containers/Data/Application` folder
+
+

@@ -1,0 +1,8 @@
+### Image Acquisition
+
+![](images/Snipaste_2023-07-24_01-26-07.png)
+
+#### Limitations to image types
+
+<img src="https://blog.elcomsoft.com/wp-content/uploads/2020/04/table.png" width="500px" />
+
