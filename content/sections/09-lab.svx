@@ -55,7 +55,7 @@ A report will be generated for you (or use the [pre-generated report](https://fe
 
 ### Question 1
 
-Do the number of SMS messages match in ArtEx / iLEAPP / the raw SMS.db file, and what does this indicate to you as forensic analyst?
+Do the number of SMS messages match in ArtEx / iLEAPP / the raw SMS.db file, and what does this indicate to you as a forensic analyst?
 
 ### Question 2
 
