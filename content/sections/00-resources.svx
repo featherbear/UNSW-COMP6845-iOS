@@ -33,7 +33,7 @@ Pre-generated report: [UNSW-COMP6845-ios-ileapp](https://featherbear.cc/UNSW-COM
 
 ---
 
-### Other tools / resources
+### If you're interested...
 
 * [3uTools](http://www.3u.com/) - iOS device management
 * [Doubleblak](https://www.doubleblak.com/) - Forensic tooling
