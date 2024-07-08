@@ -1,7 +1,7 @@
 
 ### The iOS Sandbox
 
-![](https://www.prplbx.com/wp-content/uploads/picture6iosapplicationsandbox.png)
+![](images/picture6iosapplicationsandbox.png)
 
 The iOS Application Sandbox is a security feature that isolates each application's data and resources from other applications and the underlying operating system. It enhances the overall security of the iOS platform by reducing the risk of malicious applications compromising the operating system or other applications. The sandbox is enforced by the operating system and cannot be disabled by the user or the application.
 
