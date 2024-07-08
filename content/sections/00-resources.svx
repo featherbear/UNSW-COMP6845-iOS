@@ -19,7 +19,7 @@ sha1sum: `afd25f1ebba12eb48a6cc10ac1abce7b28065a48`
 
 Download: [doubleblak.com](https://www.doubleblak.com/software.php?id=8) (registration required)
 
-Pre-generated report (may not contain everything): [UNSW-COMP6845-ios-artex](https://featherbear.cc/UNSW-COMP6845-ios-artex/)
+Pre-generated report: [UNSW-COMP6845-ios-artex](https://featherbear.cc/UNSW-COMP6845-ios-artex/)
 
 ---
 
@@ -29,7 +29,7 @@ Pre-generated report (may not contain everything): [UNSW-COMP6845-ios-artex](htt
 
 Download: [abrignoni/iLEAPP](https://github.com/abrignoni/iLEAPP)  
 
-Pre-generated report: [UNSW-COMP6845-ios-ileapp](https://featherbear.cc/UNSW-COMP6845-ios-ileapp)
+<!-- Pre-generated report: [UNSW-COMP6845-ios-ileapp](https://featherbear.cc/UNSW-COMP6845-ios-ileapp) -->
 
 ---
 
