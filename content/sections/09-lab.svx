@@ -47,7 +47,7 @@ The ArtEx tool makes use of parsers to extract artifacts, and arranges them into
 iLEAPP is another free forensics tool to analyse the contents of an iOS device.
 
 After downloading and opening iLEAPP, select the device image and then press [Process].  
-A report will be generated for you (or use the [pre-generated report](https://featherbear.cc/UNSW-COMP6845-ios-ileapp))
+A report will be generated for you <!-- (or use the [pre-generated report](https://featherbear.cc/UNSW-COMP6845-ios-ileapp)) -->
 
 ![](images/Snipaste_2023-07-24_03-59-51.png)
 
