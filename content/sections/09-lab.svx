@@ -11,7 +11,7 @@ The phone was seized by the **Perth Police** as part of an investigation, you've
 > Files are available from the [Resources](#resources) section
 
 * Download the device image
-* Download the _iLEAPP_ tool, or use the [pre-generated report](https://featherbear.cc/UNSW-COMP6845-ios-ileapp)
+* Download the _iLEAPP_ tool <!-- , or use the [pre-generated report](https://featherbear.cc/UNSW-COMP6845-ios-ileapp) -->
 * Download the _ArtEx2_ tool
 * Read the SANS iOS Forensics Poster
 
